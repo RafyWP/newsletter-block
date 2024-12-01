@@ -1,0 +1,28 @@
+.wp-block-devpress-newsletter-block {
+	position: relative;
+}
+
+.wp-block-devpress-newsletter-block input[type="email"] {
+	min-width: 300px;
+	max-width: 400px;
+	width: 100%;
+	height: 40px;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 20px;
+	padding-left: 12px;
+	outline: none;
+}
+
+.wp-block-devpress-newsletter-block button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40px;
+	height: 40px;
+	border: none;
+	border-radius: 20px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}

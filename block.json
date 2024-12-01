@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "devpress/newsletter-block",
+	"version": "0.1.0",
+	"title": "Newsletter Block",
+	"category": "widgets",
+	"icon": "email-alt2",
+	"description": "Display a simple newsletter form with an email field and an arrow button.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "newsletter-block",
+	"viewScript": "file:./view.js"
+}
